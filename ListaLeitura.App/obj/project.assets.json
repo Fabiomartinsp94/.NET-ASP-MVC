@@ -5483,11 +5483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fabio\\Desktop\\Projetos\\.NET ASP\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
-      "projectName": "Alura.ListaLeitura.App",
-      "projectPath": "C:\\Users\\fabio\\Desktop\\Projetos\\.NET ASP\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\Alura.ListaLeitura.App.csproj",
+      "projectUniqueName": "C:\\Users\\fabio\\Desktop\\Projetos\\.NET ASP\\ListaLeitura\\ListaLeitura.App\\ListaLeitura.App.csproj",
+      "projectName": "ListaLeitura.App",
+      "projectPath": "C:\\Users\\fabio\\Desktop\\Projetos\\.NET ASP\\ListaLeitura\\ListaLeitura.App\\ListaLeitura.App.csproj",
       "packagesPath": "C:\\Users\\fabio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fabio\\Desktop\\Projetos\\.NET ASP\\Alura.ListaLeitura\\Alura.ListaLeitura.App\\obj\\",
+      "outputPath": "C:\\Users\\fabio\\Desktop\\Projetos\\.NET ASP\\ListaLeitura\\ListaLeitura.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fabio\\AppData\\Roaming\\NuGet\\NuGet.Config",
