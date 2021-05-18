@@ -13,7 +13,7 @@ namespace ListaLeitura.App.Logica
 {
     public class CadastroLogica
     {
-        public static Task ProcessaFormulario(HttpContext context)
+        public static Task Incluir(HttpContext context)
         {
 
             var livro = new Livro()

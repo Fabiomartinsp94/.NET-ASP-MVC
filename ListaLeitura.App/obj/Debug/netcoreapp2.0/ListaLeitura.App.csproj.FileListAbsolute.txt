@@ -1,6 +1,5 @@
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\formulario.html
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\lendo.html
-C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\lidos.html
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\paraLer.html
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\Negocio\Livro.cs
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\Repositorio\livros.csv
@@ -16,3 +15,5 @@ C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\obj\Debug
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\obj\Debug\netcoreapp2.0\ListaLeitura.App.dll
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\obj\Debug\netcoreapp2.0\ListaLeitura.App.pdb
 C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\obj\Debug\netcoreapp2.0\ListaLeitura.App.genruntimeconfig.cache
+C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\HtmlUtils.cs
+C:\Users\fabio\Desktop\Projetos\.NET ASP\ListaLeitura\ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\lido.html
