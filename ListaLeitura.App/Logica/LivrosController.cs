@@ -7,18 +7,18 @@ using System.Linq;
 using System.Threading.Tasks;
 using ListaLeitura.App.HTML;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc;
 
 namespace ListaLeitura.App.Logica
 {
-    public class LivrosLogica
+    public class LivrosController : Controller
     {
 
-        public static Task Detalhes(HttpContext context)
-        {
-            int id = Convert.ToInt32(context.GetRouteValue("id"));
+        public string Detalhes(int id)
+        { 
             var repo = new LivroRepositorioCSV();
             var livro = repo.Todos.First(l => l.Id == id);
-            return context.Response.WriteAsync(livro.Detalhes());
+            return livro.Detalhes();
         }
         public static Task NovoLivro(HttpContext context)
         {
@@ -33,45 +33,43 @@ namespace ListaLeitura.App.Logica
         }
 
 
-        public static Task ParaLer(HttpContext context)
+        public IActionResult ParaLer()
         {
             var _repo = new LivroRepositorioCSV();
-            var html = Listagem("paraler", _repo.ParaLer.Livros);
-            return context.Response.WriteAsync(html);
-    
+            ViewBag.Livros = _repo.ParaLer.Livros;
+            return View("paraler");
+
         }
 
         private static string Listagem(string tipo ,IEnumerable<Livro> livros)
         {
             var conteudoArquivo = HtmlUtils.CarregaArquivoHTML(tipo);
 
-            foreach (var livro in livros)
-            {
-                conteudoArquivo = conteudoArquivo.Replace("#NOVO-ITEM#", $"<li>{livro.Titulo} - {livro.Autor}</li>#NOVO-ITEM#");
-            }
-
+           
         
             return conteudoArquivo.Replace("#NOVO-ITEM#", "");
            
         }
 
-        public static Task Lendo(HttpContext context)
+        public IActionResult Lendo()
         {
             var _repo = new LivroRepositorioCSV();
-            var html = Listagem("lendo" , _repo.Lendo.Livros);
-            return context.Response.WriteAsync(html);
+            ViewBag.Livros = _repo.Lendo.Livros;
+            return View("lendo");
+
         }
 
-        public static Task Lidos(HttpContext context)
+        public IActionResult Lidos()
         {
             var _repo = new LivroRepositorioCSV();
-            var html = Listagem("lido", _repo.Lidos.Livros);
-            return context.Response.WriteAsync(html);
+            ViewBag.Livros = _repo.Lidos.Livros;
+            return View("lidos");
+
         }
 
-        public static Task teste(HttpContext context)
+        public string teste()
         {
-            return context.Response.WriteAsync("OK");
+            return "OK";
         }
 
     }
